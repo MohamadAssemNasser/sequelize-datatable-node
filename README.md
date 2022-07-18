@@ -1,4 +1,4 @@
-Sequelize Datatables
+New Sequelize Datatables
 ====================
 
 Server-side datatables with Sequelize.
@@ -6,12 +6,12 @@ Server-side datatables with Sequelize.
 #### Support
 
 * Node.js v7.6 & later
-* Sequelize v5
+* Sequelize v6
 
 #### Instalation
 
 ```
-npm install sequelize-datatables
+yarn add new-sequelize-datatables
 ```
 
 #### API
