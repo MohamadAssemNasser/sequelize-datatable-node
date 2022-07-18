@@ -54,38 +54,3 @@ route.get(`/datasource`, (req, res) => {
     });
 });
 ```
-
-#### Todo
-
- - [X] Test with postgresql database
- - [X] Test with mysql database
- - [X] Test with sqlite database
- - [X] Support global search
- - [X] Support individual column search
- - [X] Support nested relation search & ordering
- - [ ] Test with another database server (mssql)
- - [X] More tests!
-
-#### Testing
-
-You must have docker installed on your system if you want to test this module on your machine.
-
-```bash
-git clone https://github.com/alwint3r/sequelize-datatable-node.git
-cd sequelize-datatable-node
-npm install
-
-# It's recommended to test this library using dockerized database engine
-DIALECT=mysql npm run test:setup
-
-# or
-
-DIALECT=postgres npm run test:setup
-
-# on another terminal, enter command
-DIALECT=postgres npm test
-
-# or
-
-DIALECT=mysql npm test
-```
