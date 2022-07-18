@@ -1,13 +1,13 @@
 {
   "name": "new-sequelize-datatables",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Server-side datatables with sequelize",
   "main": "src/index.js",
   "author": "Mohamad Assem Nasser <mhmd.asm.nsr@gmail.com>",
   "files": [
     "src"
   ],
-  "homepage": "https://github.com/alwint3r/sequelize-datatable-node#readme",
+  "homepage": "https://github.com/MohamadAssemNasser/sequelize-datatable-node#readme",
   "keywords": [
     "sequelize",
     "datatables"
@@ -15,12 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alwint3r/sequelize-datatable-node.git"
-  },
-  "scripts": {
-    "lint": "eslint src test",
-    "test": "mocha",
-    "test:setup": "./initialize-database-container"
+    "url": "git+https://github.com/MohamadAssemNasser/sequelize-datatable-node.git"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
