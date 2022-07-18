@@ -1,5 +1,5 @@
 {
-  "name": "sequelize-datatables",
+  "name": "new-sequelize-datatables",
   "version": "3.0.1",
   "description": "Server-side datatables with sequelize",
   "main": "src/index.js",
